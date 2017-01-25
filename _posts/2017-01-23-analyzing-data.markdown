@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Analyzing the Data"
-date:   2017-01-23 23:00:00 -0500
+date:   2017-01-30 23:00:00 -0500
 categories: thermopi analysis
 ---
 
