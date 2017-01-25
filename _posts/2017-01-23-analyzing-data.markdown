@@ -48,7 +48,7 @@ is obviously not an optimal solution, so I'll look into a better way to handle t
 It's worth spending a little time to really understand what we're seeing in this series, and to that end it's important to know 
 a bit about my condo's heating system. 
 
-* I live on the bottom floor of an old, three story building. 
+* I live on the bottom floor of an old, three story building
 * My walls are horse-hair plaster
 * The windows are original (and quite leaky)
 * My condo is heated via force hot air, and the furnace was recently replaced
