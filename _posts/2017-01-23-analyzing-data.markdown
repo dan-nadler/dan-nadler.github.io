@@ -52,29 +52,35 @@ a bit about my condo's heating system.
 * My walls are horse-hair plaster
 * The windows are original (and quite leaky)
 * My condo is heated via force hot air, and the furnace was recently replaced
+* I set my thermostat on a schedule. It's generally 68 degrees when I'm home, and 62 at night or when I'm at work.
 
 Here's a floor plan of my condo that I drew up a while back. The furnature is somewhat accurate, but the important thing to note is the
 locations of the thermostat (red), vents (green), and intake (blue).
 
 ![floor_plan]({{site.url}}/assets/2017-01-23-analyzing-data/floor_plan.png){:class="img-responsive"}
 
-The `Living Room (North Wall) sensor is located in the top right corner of the floor plan, next to the sofa.
+The `Living Room (North Wall)` sensor is located in the top right corner of the floor plan, next to the sofa.
 
-With all of that out of the way, what are we looking at? Well, I set my thermostat on a schedule. It's generally 68 degrees when I'm home, 
-and 62 at night or when I'm at work.
+With all of that out of the way, what are we looking at?
+
+The oscilations in the chart are caused by the heating system overshooting its target temperature, and then waiting for the temperature to 
+fall a certain amount bewfore coming back on.
+
+The long decline in the middle of the chart is night-time, when I'm asleep, and the thermostat is set to 60 or 62 degrees. 
+
+Then, the heat comes back on in the morning, and steps up a little higher during the day (this was a weekend).
 
 ![temp_over_time]({{site.url}}/assets/2017-01-23-analyzing-data/temp_over_time.png){:class="img-responsive"}
 
 What I found immediately interesting was that the condo can make it pretty much completely through the night without needing the heat once.
 
 Additionally, the actual shape of the decline is interesting. The rate of loss of heat appears to decelerate in the period immediately following
-a period of heating. The is especially apparent after the last heating cycle around 11pm - 11:30pm before I went to bed.
+a period of heating. The is especially apparent after the last heating cycle around 11pm - 11:30pm before I went to bed. 
 
-Then, at 6:30, my heating kicks back on to hit the morning target of, if I recall correctly, 65 degrees. It's interesting that during this time, 
-the living room overshoots by a large margin, and takes some time (upwards of 15-30 minutes) to arrive at a stable mean. The same thing happens when the 
-heat bumps up after that. I believe that this was taken over a Saturday, which explains the higher daytime temperature.
+It would be interesting to explore the relationship of the oscilations to the exterior temperature. I would guess that the width of the oscilations
+would be correlated to exterior temperature. I would also be curious to see changes to the second derivative of the line and the correlation of 
+that with exterior temperatures.
 
-
-Next time, I'll get into some of the multi-sensor data, and see what kind of relationships exist between outdoor and indoor temperature.
+I'll follow up on these ideas, and some multisensor readings in a future post.
 
 -Dan
