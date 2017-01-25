@@ -63,8 +63,8 @@ The `Living Room (North Wall)` sensor is located in the top right corner of the 
 
 With all of that out of the way, what are we looking at?
 
-The oscilations in the chart are caused by the heating system overshooting its target temperature, and then waiting for the temperature to 
-fall a certain amount bewfore coming back on.
+The oscillations in the chart are caused by the heating system overshooting its target temperature, and then waiting for the temperature to 
+fall a certain amount before coming back on.
 
 The long decline in the middle of the chart is night-time, when I'm asleep, and the thermostat is set to 60 or 62 degrees. 
 
@@ -77,7 +77,7 @@ What I found immediately interesting was that the condo can make it pretty much 
 Additionally, the actual shape of the decline is interesting. The rate of loss of heat appears to decelerate in the period immediately following
 a period of heating. The is especially apparent after the last heating cycle around 11pm - 11:30pm before I went to bed. 
 
-It would be interesting to explore the relationship of the oscilations to the exterior temperature. I would guess that the width of the oscilations
+It would be interesting to explore the relationship of the oscillations to the exterior temperature. I would guess that the width of the oscillations
 would be correlated to exterior temperature. I would also be curious to see changes to the second derivative of the line and the correlation of 
 that with exterior temperatures.
 
