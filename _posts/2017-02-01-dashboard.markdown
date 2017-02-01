@@ -5,7 +5,7 @@ date:   2017-02-01 18:30:00 -0500
 categories: thermopi dashboard analysis
 ---
 
-# ThemoDashboard
+# thermoDashboard
 
 I got tired of constantly querying my database to see the current status of my house, so I decided to build a simple dashboard.
 
