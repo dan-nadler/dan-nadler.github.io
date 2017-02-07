@@ -3,6 +3,7 @@ layout: post
 title:  "A Better Multi-Sensor Schematic"
 date:   2017-02-06 20:30:00 -0500
 categories: thermopi hardware 
+comments: true
 ---
 
 I just wanted to make a quick post with a better way to do the multi-sensor setup that I am using. Previously, 
