@@ -69,7 +69,7 @@ def record_to_csv(record_time, temp, location, file):
         f.write(line)
 {% endhighlight %}
 
-Finally, I’ll add a loop to this file read the file every 10 seconds:
+Finally, I’ll add a loop to this file to record the sensor every 10 seconds:
 
 {% highlight python %}
 if __name__ == '__main__':
@@ -86,12 +86,6 @@ if __name__ == '__main__':
             try:
                 _, temperature = read_temp_sensor(device_id)
                 record_to_csv(datetime.now(), temperature, location, file_path)
-
-                try:
-                    record_to_database(datetime.now(), temperature, location)
-
-                except Exception as e:
-                    print('Error during database insert: ', e)
 
                 print(location, temperature)
 
