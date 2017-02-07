@@ -3,6 +3,7 @@ layout: post
 title:  "thermoDashboard"
 date:   2017-02-01 18:30:00 -0500
 categories: thermopi dashboard analysis
+comments: true
 ---
 
 # thermoDashboard

@@ -3,6 +3,7 @@ layout: post
 title:  "Analyzing the Data"
 date:   2017-01-24 19:30:00 -0500
 categories: thermopi analysis
+commments: true
 ---
 
 Finally, we're on to the good stuff!

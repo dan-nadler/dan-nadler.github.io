@@ -3,6 +3,7 @@ layout: post
 title:  "Multiple Sensors"
 date:   2017-02-01 18:00:00 -0500
 categories: thermopi hardware
+comments: true
 ---
 
 # Multiple Sensors - Hardware
