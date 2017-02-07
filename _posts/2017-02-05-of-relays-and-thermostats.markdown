@@ -2,7 +2,7 @@
 layout: post
 title:  "Of Relays and Thermostats"
 date:   2017-02-05 13:50:00 -0500
-categories: thermopi Hardware software
+categories: thermopi hardware software
 ---
 
 This weekend I decided to take the leap and add thermostat functionality to my setup. 
