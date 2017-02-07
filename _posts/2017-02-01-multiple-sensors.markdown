@@ -6,6 +6,7 @@ categories: thermopi hardware
 comments: true
 ---
 <!--more-->
+
 # Multiple Sensors - Hardware
 
 I wanted to go back and write a little about how I am using multiple sensors for this project. I learned early on that the DS18B20 thermal sensors I am using can be chained together very easily, as illustrated here:

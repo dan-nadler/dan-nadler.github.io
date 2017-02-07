@@ -6,6 +6,7 @@ categories: thermopi dashboard analysis
 comments: true
 ---
 <!--more-->
+
 # thermoDashboard
 
 I got tired of constantly querying my database to see the current status of my house, so I decided to build a simple dashboard.
