@@ -5,10 +5,6 @@ date:   2017-02-01 18:00:00 -0500
 categories: thermopi hardware
 comments: true
 ---
-<!--more-->
-
-# Multiple Sensors - Hardware
-
 I wanted to go back and write a little about how I am using multiple sensors for this project. I learned early on that the DS18B20 thermal sensors I am using can be chained together very easily, as illustrated here:
 
 ![schematic]({{site.url}}/assets/2017-02-01-multiple-sensors/schematic.png){:class="img-responsive"}
@@ -17,7 +13,7 @@ The result is that one GPIO pin can receive data from a number of sensors (not s
 
 I decided to solder the resistor to the sensor, rather than hook up everything through a breadboard. This probably isn’t a great long-term solution, but it allows me to easily move sensors around.
 
-The sensors aren’t labeled, as far as I could tell, so I had to figure out the serial numbers and keep track of everything myself. 
+The sensors aren’t labeled, as far as I could tell, so I had to figure out the serial numbers and keep track of everything myself. <!--more-->
 
 My process to organize the sensors was:
 

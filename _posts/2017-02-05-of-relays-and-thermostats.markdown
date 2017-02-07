@@ -4,21 +4,21 @@ title:  "Of Relays and Thermostats"
 date:   2017-02-05 13:50:00 -0500
 categories: thermopi hardware software
 comments: true
+image:
+    feature: ../../assets/2017-02-05-of-relays-and-thermostats/relay_breadboard_off.png
 ---
 
 This weekend I decided to take the leap and add thermostat functionality to my setup. 
 
-<!--more-->
-
 1. Connect a Pi to furnace
 1. Write the software to control the furnace
 
-# Connecting to the furnace
+## Connecting to the Furnace
 
 This was actually relatively straightforward. My thermostat is connected to the furnace via two wires. When the thermostat completes the circuit, the furnace
 turns on. When it breaks the circuit, the furnace turns off. There's a little nuance here, as I imagine the details can vary from furnace to furnace. For example,
 my furnace has a variable blower, but I don't have enough wires connected to my thermostat to dynamically control it, I can only turn it on and off. I'll address 
-this limitation in the future.
+this limitation in the future.<!--more-->
 
 In order to break the circuit from my Pi, I connected a [relay ($5.80 on Amazon)](https://www.amazon.com/gp/product/B00VRUAHLE/ref=oh_aui_detailpage_o03_s01?ie=UTF8&psc=1)
 to a GPIO pin.

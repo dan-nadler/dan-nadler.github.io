@@ -5,10 +5,7 @@ date:   2017-01-22 18:00:00 -0500
 categories: thermopi setup software
 comments: true
 ---
-<!--more-->
-
-
-# Reading the Sensor #
+# Reading the Sensor
 
 As a reminder, the sensors write to files located here: `/sys/bus/w1/devices/<DEVICE-ID>/w1_slave`, and they look something like this:
 
@@ -20,6 +17,7 @@ As a reminder, the sensors write to files located here: `/sys/bus/w1/devices/<DE
 The `t=18250` is the temperature (this would be 18.25 degrees celsius, and `crc=48 YES` shows that the sensor is functioning properly. If it was not, it would say `NO`.
 
 It’s pretty simple to read this file… here’s the function I wrote to do it:
+<!--more-->
 
 __IO.py__
 

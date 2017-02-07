@@ -5,9 +5,7 @@ date:   2017-01-25 18:00:00 -0500
 categories: thermopi analysis
 comments: true
 ---
-<!--more-->
-
-# Multiple Sensors
+## Multiple Sensors
 
 Since my last post, I've installed multiple sensors and expanded my code ([on github](https://github.com/dan-nadler/thermoPi)) to read and store the data. I've 
 also set up a MySQL server on Google Cloud to store the data. 
@@ -18,7 +16,7 @@ In this chart, I start with two sensors, and have 4 sensors running by the end o
 
 The grey line (exterior), is aligned with the right axis.
 
-![one_day]({{site.url}}/assets/2017-01-25-analyzing-data-ii/one_day.png){:class="img-responsive"}
+![one_day]({{site.url}}/assets/2017-01-25-analyzing-data-ii/one_day.png){:class="img-responsive"}<!--more-->
 
 Notable points about the sensor locations:
 

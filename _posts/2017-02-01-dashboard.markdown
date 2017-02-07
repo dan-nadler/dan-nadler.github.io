@@ -5,13 +5,9 @@ date:   2017-02-01 18:30:00 -0500
 categories: thermopi dashboard analysis
 comments: true
 ---
-<!--more-->
-
-# thermoDashboard
-
 I got tired of constantly querying my database to see the current status of my house, so I decided to build a simple dashboard.
 
-I chose to use Zappa and Flask to display some simple Highcharts graphs on a webpage. The database is still hosted at Google, which isn’t ideal for this setup. I do like the Google Cloud interface, and the SQL service they have is easy to use with auto-scaling. I’ll have to weigh my options and decide if it’s worth the move to AWS.
+I chose to use Zappa and Flask to display some simple Highcharts graphs on a webpage. The database is still hosted at Google, which isn’t ideal for this setup. I do like the Google Cloud interface, and the SQL service they have is easy to use with auto-scaling. I’ll have to weigh my options and decide if it’s worth the move to AWS.<!--more-->
 
 It was quite simple to set up, and I put the dashboard on GitHub, here: https://github.com/dan-nadler/thermoDashboard
 

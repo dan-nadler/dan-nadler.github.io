@@ -5,9 +5,6 @@ date:   2017-01-21 18:00:00 -0500
 categories: thermopi setup hardware
 comments: true
 ---
-<!--more-->
-
-
 # Parts
 
 I ordered my first set of parts from Amazon, here's what I got:
@@ -19,7 +16,7 @@ I ordered my first set of parts from Amazon, here's what I got:
 1. [GPIO T-Cobbler with Ribbon Cable](https://www.amazon.com/gp/product/B01CNKXM54) ($10)
 1. A 16GB MicroSD card that I had lying around
 
-To be fair, I didn't do a whole lot of research before buying these parts, and probably could have found some of them cheaper elsewhere. The parts that came with the Elegoo kit were okay, but I am mostly just using the cables and breadboard. The breadboard is fairly small, which made working with the cobbler a little difficult. I ended up connecting the Pi directly to the breadboard without the cobbler, and have ordered a large breadboard as well.
+To be fair, I didn't do a whole lot of research before buying these parts, and probably could have found some of them cheaper elsewhere. The parts that came with the Elegoo kit were okay, but I am mostly just using the cables and breadboard. The breadboard is fairly small, which made working with the cobbler a little difficult. I ended up connecting the Pi directly to the breadboard without the cobbler, and have ordered a large breadboard as well.<!--more-->
 
 # Getting the Pi up and running
 
