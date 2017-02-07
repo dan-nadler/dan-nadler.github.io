@@ -8,7 +8,7 @@ email: dan.nadler@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
   This is my blog, chronicling my quest to collect and organize my world's data. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://dan-nadler.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 #
 ###################################
