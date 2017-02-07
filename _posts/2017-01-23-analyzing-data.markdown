@@ -32,6 +32,8 @@ Name: Living Room (North Wall), dtype: float64
 
 __WOOHOO!__
 
+<!--more-->
+
 Plotting the data from the CSV file gives me some promising preliminary data.
 
 ![temp_over_time]({{site.url}}/assets/2017-01-23-analyzing-data/temp_over_time.png){:class="img-responsive"}

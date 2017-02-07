@@ -5,6 +5,7 @@ date:   2017-01-25 18:00:00 -0500
 categories: thermopi analysis
 comments: true
 ---
+<!--more-->
 
 # Multiple Sensors
 

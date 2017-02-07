@@ -6,7 +6,7 @@ categories: thermopi hardware
 comments: true
 ---
 
-I just wanted to make a quick post with a better way to do the multi-sensor setup that I am using. Previously, 
+I just wanted to make a quick post with a better way to do the multi-sensor setup that I am using. <!--more-->Previously, 
 I had posted a schematic and pictures where I was using one resistor per sensor. After thinking about this a 
 little bit, I realized that this is completely unnecessary, and that you only need one resistor per circuit:
 

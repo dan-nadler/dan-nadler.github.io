@@ -5,6 +5,8 @@ date:   2017-01-21 18:00:00 -0500
 categories: thermopi setup hardware
 comments: true
 ---
+<!--more-->
+
 
 # Parts
 

@@ -5,6 +5,8 @@ date:   2017-01-22 18:00:00 -0500
 categories: thermopi setup software
 comments: true
 ---
+<!--more-->
+
 
 # Reading the Sensor #
 
