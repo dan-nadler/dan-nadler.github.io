@@ -8,6 +8,8 @@ comments: true
 
 This weekend I decided to take the leap and add thermostat functionality to my setup. 
 
+<!--more-->
+
 1. Connect a Pi to furnace
 1. Write the software to control the furnace
 
