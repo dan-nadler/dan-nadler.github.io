@@ -44,12 +44,12 @@ owner:
   facebook: #username
   google:
     plus: #username
-    analytics:
+    analytics: UA-91658535-1
     verify:
     ad-client:
     ad-slot:
   bing-verify:
-  github: "dan-nadler"
+  github: dan-nadler
   gitlab: #username
   stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
   linkedin: #username
