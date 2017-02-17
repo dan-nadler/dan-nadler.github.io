@@ -15,7 +15,7 @@ allow me to control the thermostat from a screen attached to the Pi itself, and 
 I could theoretically port-forward the application so that I could access it from outside my local network, but I will need to 
 add some security before doing something like that.
 
-The first step to sketch out a plan for the UI. I came up with this simple interface after a few iterations. This is just the 'main menu,' I haven't 
+The first step was to sketch out a plan for the UI. I came up with this simple interface after a few iterations. This is just the 'main menu,' I haven't 
 designed the other pages yet.
 
 ![sketch]({{site.url}}/assets/2017-02-16-thermostat-control/sketch.png){:class="img-responsive"}
@@ -23,7 +23,7 @@ designed the other pages yet.
 My Flask application is laid out so that it generally calls a function from an API file. The functions in the API file reach out to other 
 modules within `thermo` or go straight to the database to insert or update a record.<!--more-->
 
-Here is an example of a function that retrieves the current temperatures from the database:
+Here is an example of a function that sets a constant temperature target for the thermostat by inserting a row in the `message` table.
 
 {% highlight python %}
 @duplicate_locally
@@ -94,7 +94,7 @@ def duplicate_locally(function):
 
 ### Back to the Interface
 
-So now that I had a handful of API functions to call, I created a simple Flask app to get me started:
+Once I had a handful of API functions to call, I was able to create a simple Flask app to get me started:
 
 {% highlight python %}
 from flask import Flask, render_template, request, redirect, url_for
