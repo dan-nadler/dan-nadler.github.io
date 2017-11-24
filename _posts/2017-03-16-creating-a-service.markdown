@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "A Quick Note on Services"
-date:   2017-02-16 20:00:00 -0500
+date:   2017-03-16 20:00:00 -0500
 categories: thermopi software
 comments: true
 ---
