@@ -3,10 +3,10 @@
 # Site wide configuration
 ####################################
 #
-title: ThermoPi
+title: Dan Nadler's Blog
 email: dan.nadler@outlook.com
 description: > # this means to ignore newlines until "baseurl:"
-  This is my blog, chronicling my quest to collect and organize my world's data. 
+  This is my blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://dan-nadler.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -37,7 +37,7 @@ owner:
   name: Dan Nadler
   avatar: 
   job:
-  bio: "My journey to collect and organize my world's data"
+  bio:
   email: "dan.nadler@outlook.com"
   disqus-shortname: dan-nadler-github-io
   twitter: #username
