@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "DataSpace"
-date:   2017-12-5 10:00:00 -0500
+date:   2017-12-12 18:00:00 -0500
 categories: virtual-reality data-visualization
 comments: true
 ---
