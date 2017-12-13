@@ -64,3 +64,5 @@ Some things I’d like to add/improve in the future are:
 -	Save and load
 
 Do you have a use case for something like this? Let me know; I’m really interested to see if anyone else would find this useful. I’ve mostly used it for fun visualizations, but I did find it fairly helpful for quickly exploring a dataset from the Two Sigma Kaggle competition.
+
+If you’re interested in trying it out, please feel free to shoot me an email. The app only supports the Rift at the moment, and you will need Oculus Home to download the application.
